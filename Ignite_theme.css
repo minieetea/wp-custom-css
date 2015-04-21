@@ -1,0 +1,49 @@
+/*
+Welcome to Custom CSS!
+
+CSS (Cascading Style Sheets) is a kind of code that tells the browser how
+to render a web page. You may delete these comments and get started with
+your customizations.
+
+By default, your stylesheet will be loaded after the theme stylesheets,
+which means that your rules can take precedence and override the theme CSS
+rules. Just write here what you want to change, you don't need to copy all
+your theme's stylesheet content.
+*/
+h2 {
+	font-size: 2em;
+	line-height: 1.34;
+	color: rgb(250,137,56);
+	font-weight: 700;
+	border-bottom-style: inset;
+	padding-left: 15px;
+	border-left-style: solid;
+	margin: 1.2em 0;
+}
+
+a:active, a:hover, a:visited {
+	color: #E6A117;
+}
+
+h3 {
+	font-size: 1.4em;
+	line-height: 1.6em;
+	font-weight: 700;
+	color: rgb(230,161,23);
+}
+
+blockquote {
+	margin: 1.5em 1.5em 1.5em 0;
+	padding-left: 1.5em;
+	border-left: solid 3px #e6a117;
+	color: rgb(139,110,73);
+	font-size: 1.1em;
+}
+
+code {
+	background: #E7D5B0;
+	padding: 0 .375em;
+	font-size: 1.3em;
+	border-radius: 3px;
+	color: rgb(197,32,32);
+}
